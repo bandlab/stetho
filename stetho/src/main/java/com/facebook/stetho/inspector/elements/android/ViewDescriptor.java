@@ -53,7 +53,7 @@ final class ViewDescriptor extends AbstractChainedDescriptor<View>
 
   static {
     sHasSupportNodeInfo = ReflectionUtil.tryGetClassForName(
-        "android.support.v4.view.accessibility.AccessibilityNodeInfoCompat") != null;
+        "androidx.core.view.accessibility.AccessibilityNodeInfoCompat") != null;
   }
 
   /**

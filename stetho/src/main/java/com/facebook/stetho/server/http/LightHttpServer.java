@@ -11,7 +11,7 @@ package com.facebook.stetho.server.http;
 
 import android.net.LocalSocket;
 import android.net.Uri;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import com.facebook.stetho.server.LeakyBufferedInputStream;
 import com.facebook.stetho.server.SocketLike;
 
